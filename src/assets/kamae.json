@@ -1,0 +1,106 @@
+{
+	"frames": {
+		"ctk450_21 0.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 190,
+				"h": 210
+			},
+			"duration": 125
+		},
+		"ctk450_21 1.png": {
+			"frame": {
+				"x": 190,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 190,
+				"h": 210
+			},
+			"duration": 125
+		},
+		"ctk450_21 2.png": {
+			"frame": {
+				"x": 380,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 190,
+				"h": 210
+			},
+			"duration": 125
+		},
+		"ctk450_21 3.png": {
+			"frame": {
+				"x": 570,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 190,
+				"h": 210
+			},
+			"duration": 125
+		}
+	},
+	"meta": {
+		"app": "http://www.aseprite.org/",
+		"version": "1.x-dev",
+		"image": "kamae.png",
+		"format": "I8",
+		"size": {
+			"w": 760,
+			"h": 210
+		},
+		"scale": "1",
+		"frameTags": [],
+		"layers": [{
+			"name": "Layer",
+			"opacity": 255,
+			"blendMode": "normal"
+		}],
+		"slices": []
+	}
+}
