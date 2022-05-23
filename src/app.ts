@@ -1,12 +1,12 @@
-import * as PIXI from 'pixi.js';
-import { Application, Loader } from 'pixi.js';
+import { Application, IApplicationOptions } from '@pixi/app';
+import { Loader } from '@pixi/loaders';
 import { resource } from './manifest';
 import main from './main'
 
 
 const execGame = async function() {
     const gameDOM: HTMLElement = document.getElementById("main-game");
-    const cfg: PIXI.IApplicationOptions = {
+    const cfg: IApplicationOptions = {
         width: gameDOM.offsetWidth,
         height: gameDOM.offsetHeight,
         autoStart: false,
@@ -16,13 +16,14 @@ const execGame = async function() {
     const loader: Loader = Loader.shared;
     let message: HTMLElement = document.getElementById("message");
     loader.onProgress.add((loader, res) => {
-        console.log(`Loaded: ${res.name}, ${res.data}`)
-        message.innerHTML = `Loaded: ${res.name}, ${res.data}`;
+        console.log(`Loading: ${res.name}, ${res.data}`)
+        message.innerHTML = `Loading: ${res.name}, ${res.data}`;
     })
 
     loader.onError.add((error: Error) => {
-        console.log(error.message)
+        console.log(error)
     })
+
 
     for(const [key, value] of Object.entries(resource)) {
         loader.add(key, require(`${value}`));

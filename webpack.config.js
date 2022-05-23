@@ -58,12 +58,13 @@ module.exports = {
             },
             {
                 test: /\.json$/,
-                type: 'javascript/auto',
-                use: [
-                    {
-                        loader: path.resolve('./json-loader.js')
-                    }
-                ]
+                type: 'asset/inline', // Sound stupid, but PixiJS has build-in loader for Json
+                exclude: /node_modules/
+                // use: [
+                //     {
+                //         loader: path.resolve('./json-loader.js')
+                //     }
+                // ]
             }
         ]
     }

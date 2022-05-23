@@ -16,6 +16,8 @@ const main: Function = function(_context: MainArgs) {
         frames.push(tex);
     }
 
+    console.log(_context.assets.kamaeMeta.data)
+
     const anim = new AnimatedSprite(frames);
     _context.app.stage.addChild(anim);
     window.addEventListener("keydown", (ev: KeyboardEvent) => {
