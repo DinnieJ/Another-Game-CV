@@ -1,4 +1,4 @@
-lib class
+dib class
 
 Entity: Container for storing sprite, with id and type of entity
     
