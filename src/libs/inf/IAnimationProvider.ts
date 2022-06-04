@@ -6,5 +6,5 @@ export default interface IAnimationProvider {
     current: number
 
     addAnimation: Function
-    changeAnimation(target: AnimatedObject|number): Function
+    changeAnimation: Function
 }

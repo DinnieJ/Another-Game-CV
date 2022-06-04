@@ -10,7 +10,7 @@ const execGame = async function() {
         width: gameDOM.offsetWidth,
         height: gameDOM.offsetHeight,
         autoStart: false,
-        backgroundColor: 0x123123
+        backgroundColor: 0xffffff
     }
     const game: Application = new Application(cfg);
     const loader: Loader = Loader.shared;

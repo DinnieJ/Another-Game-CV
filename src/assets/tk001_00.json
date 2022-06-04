@@ -1,0 +1,114 @@
+{ "frames": {
+   "tk001_00 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 1.png": {
+    "frame": { "x": 233, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 2.png": {
+    "frame": { "x": 466, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 3.png": {
+    "frame": { "x": 699, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 4.png": {
+    "frame": { "x": 932, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 5.png": {
+    "frame": { "x": 1165, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 6.png": {
+    "frame": { "x": 1398, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 7.png": {
+    "frame": { "x": 1631, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 8.png": {
+    "frame": { "x": 1864, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 9.png": {
+    "frame": { "x": 2097, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 10.png": {
+    "frame": { "x": 2330, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   },
+   "tk001_00 11.png": {
+    "frame": { "x": 2563, "y": 0, "w": 233, "h": 415 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 233, "h": 415 },
+    "sourceSize": { "w": 233, "h": 415 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "tk001_00-sheet.png",
+  "format": "I8",
+  "size": { "w": 2796, "h": 415 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
